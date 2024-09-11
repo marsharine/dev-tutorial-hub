@@ -1,4 +1,3 @@
-
 # A Beginner's Guide to Essential HTML Tags: The Building Blocks of Web Development
 
 HTML (Hypertext Markup Language) is the foundation of all web pages, forming the structure and content of websites. Understanding basic HTML tags is essential for anyone starting their web development journey. This guide will walk you through some of the most important HTML tags and their significance, offering a solid foundation to help you build your first website.
