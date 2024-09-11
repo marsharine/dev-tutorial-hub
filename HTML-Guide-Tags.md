@@ -43,7 +43,9 @@ Let’s explore the key HTML tags that every beginner should know.
 **Example**:
 
 `<html>`
-  <!-- All content goes here -->
+
+  `<!-- All content goes here -->`
+  
 `<html>`
 
 ### `<head>`: Metadata and Page Information
@@ -52,7 +54,9 @@ Let’s explore the key HTML tags that every beginner should know.
 
 **Example:**
 `<head>'
+
   `<title>My First Webpage</title>'
+  
 `</head>'
 
 ### `<title>`: Defining the Page Title
@@ -60,15 +64,19 @@ Let’s explore the key HTML tags that every beginner should know.
 **Purpose**:  Sets the webpage title, shown on the browser tab and in search engine results.
 
 **Example:**
-`<title>'Welcome to My Website</title>
+
+`<title>'Welcome to My Website</title>'
 
 ### `<body>`: Visible Content
 
 **Purpose**:  Contains all visible content like text, images, and links.
     
 **Example:**
+
 `<body>`
+
   `<h1>Hello World!</h1>`
+  
 `</body>`
 
 ## Content Organization Tags
@@ -79,7 +87,9 @@ Let’s explore the key HTML tags that every beginner should know.
     
 **Example:**
 `<h1>Main Heading</h1>`
+
 `<h2>Subheading</h2>`
+
 `<h3>Minor Heading</h3>`
 
 ### `<p>: Paragraphs`
@@ -87,7 +97,9 @@ Let’s explore the key HTML tags that every beginner should know.
 **Purpose**: Creates a block of text.
     
 **Example:**
+
 `<html>`
+
 `<p>This is a paragraph of text on my webpage.</p>`
 
 ### `<a>: Hyperlinks`
@@ -100,6 +112,7 @@ Let’s explore the key HTML tags that every beginner should know.
     
 **Example:**
 `<a href="https://www.example.com">Visit Example</a>`
+
 `<img>: Images`
 
 **Purpose**: Displays images on the webpage.
@@ -111,6 +124,7 @@ Let’s explore the key HTML tags that every beginner should know.
 - `alt: Alternative text for the image.`
 
 **Example:**
+
 `<img src="image.jpg" alt="Description of image">`
 
 ## List and Layout Tags:
@@ -121,16 +135,25 @@ Let’s explore the key HTML tags that every beginner should know.
     
 **Example: (Unordered List):**
 `<ul>`
+
 `<li>Item 1</li>`
+
 `<li>Item 2</li>`
+
 `<li>Item 3</li>`
+
 `</ul>`
 
 **Example: (ordered List):**
+
 `<ol>`
+
 `<li>First Item</li>`
+
 `<li>Second Item</li>`
+
 `<li>Third Item</li>`
+
 `</ol>`
 
 ### `<div>: Division or Section`
@@ -138,9 +161,13 @@ Let’s explore the key HTML tags that every beginner should know.
 **Purpose**: Groups elements into a section, useful for page layouts.
     
 **Example:**
+
 `<div>`
+
 `<h2>About Me</h2>`
+
 `<p>This section talks about me.</p>`
+
 `</div>`
 
 ### `<span>: Inline Element`
@@ -149,6 +176,7 @@ Let’s explore the key HTML tags that every beginner should know.
     
 **Example:**
 `<p>This is an <span style="color: red;">important</span> word in the sentence.</p>`
+
 User Interaction Tags
 
 ### `<form>: Forms for User Input`
@@ -157,9 +185,13 @@ User Interaction Tags
     
 **Example:**
 `<form action="/submit" method="POST">`
+
 `<label for="name">Name:</label>`
+
 `<input type="text" id="name" name="name">`
+
 `<input type="submit" value="Submit">`
+
 `</form>`
 
 ## Text Formatting Tags
@@ -182,7 +214,6 @@ User Interaction Tags
 
 Understanding these essential  tags is the first step toward creating structured, readable, and SEO-friendly websites. While HTML forms the backbone of a webpage, it is often combined with CSS for styling and JavaScript for functionality. Mastering these tags will lay a strong foundation for any aspiring web developer.
 
-Happy coding!
 
 # How to Use This Guide
 
@@ -191,6 +222,8 @@ You can:
 - Copy the code examples into your text editor or online platforms like CodePen to experiment with them.
 - Modify and expand the tags as you explore more complex HTML layouts.
 - Feel free to add comments or additional notes if you have feedback or improvements!
+
+  Happy coding!
 
 
 
