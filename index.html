@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Concepts Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JavaScript Concepts Quiz 1</h1>
+  <form id="quizForm">
+    <!-- Question 1 -->
+    <div class="question">
+      <label>1. What keyword is used to declare a constant in JavaScript?</label><br>
+      <input type="radio" name="q1" value="var"> var<br>
+      <input type="radio" name="q1" value="let"> let<br>
+      <input type="radio" name="q1" value="const"> const<br>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="question">
+      <label>2. Which of the following is a JavaScript data type?</label><br>
+      <input type="radio" name="q2" value="Array"> Array<br>
+      <input type="radio" name="q2" value="Number"> Number<br>
+      <input type="radio" name="q2" value="String"> String<br>
+      <input type="radio" name="q2" value="All of the above"> All of the above<br>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="question">
+      <label>3. How do you write an `if` statement in JavaScript?</label><br>
+      <input type="radio" name="q3" value="if (x == 5) {}"> if (x == 5) {}<br>
+      <input type="radio" name="q3" value="if x == 5 then {}"> if x == 5 then {}<br>
+      <input type="radio" name="q3" value="if x = 5 {}"> if x = 5 {}<br>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="question">
+      <label>4. How do you call a function named `myFunction`?</label><br>
+      <input type="radio" name="q4" value="call myFunction()"> call myFunction()<br>
+      <input type="radio" name="q4" value="myFunction()"> myFunction()<br>
+      <input type="radio" name="q4" value="run myFunction()"> run myFunction()<br>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="question">
+      <label>5. Which method can be used to manipulate the HTML DOM?</label><br>
+      <input type="radio" name="q5" value="document.getElementById()"> document.getElementById()<br>
+      <input type="radio" name="q5" value="console.log()"> console.log()<br>
+      <input type="radio" name="q5" value="alert()"> alert()<br>
+    </div>
+
+    <button type="button" onclick="checkAnswers()">Submit</button>
+  </form>
+
+  <p id="result"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
