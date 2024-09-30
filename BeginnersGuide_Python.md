@@ -24,22 +24,18 @@ Python is a high-level, interpreted programming language that is widely used for
 #### **1\. Print Statements**
 
 The `print()` function outputs text to the console.
-
-python  
-Copy code  
+ 
 `print("Hello, World!")`
 
 Output:
 
-Copy code  
+
 `Hello, World!`
 
 #### **2\. Comments**
 
 Comments are ignored by Python and are used to explain code. In Python, comments start with `#`.
 
-python  
-Copy code  
 `# This is a comment`  
 `print("This will print!")  # Another comment`
 
@@ -53,30 +49,22 @@ Python supports several types of data:
 
 * **Integer (int)**: Whole numbers.
 
-python  
-Copy code  
 `x = 5`
 
 * **Float**: Numbers with decimals.
 
-python  
-Copy code  
 `y = 5.5`
 
 #### **2\. Strings (str)**
 
 Text data enclosed in single (`'`) or double (`"`) quotes.
 
-python  
-Copy code  
 `name = "Alice"`
 
 #### **3\. Boolean (bool)**
 
 True or False values.
 
-python  
-Copy code  
 `is_student = True`
 
 ---
@@ -85,8 +73,6 @@ Copy code
 
 Variables are used to store data values.
 
-python  
-Copy code  
 `age = 25`  
 `name = "John"`
 
@@ -103,8 +89,6 @@ Python automatically detects the type of the variable.
 * `*` Multiplication  
 * `/` Division
 
-python  
-Copy code  
 `result = 3 + 5  # Output: 8`
 
 #### **2\. Comparison Operators**
@@ -114,8 +98,6 @@ Copy code
 * `>` Greater than  
 * `<` Less than
 
-python  
-Copy code  
 `5 > 3  # True`
 
 ---
@@ -126,8 +108,6 @@ Copy code
 
 Used to make decisions in code.
 
-python  
-Copy code  
 `x = 10`
 
 `if x > 5:`  
@@ -143,15 +123,11 @@ Loops repeat a block of code until a condition is met.
 
 * **For Loop**:
 
-python  
-Copy code  
 `for i in range(5):`  
     `print(i)  # Prints numbers from 0 to 4`
 
 * **While Loop**:
 
-python  
-Copy code  
 `count = 0`  
 `while count < 3:`  
     `print(count)`  
@@ -163,8 +139,6 @@ Copy code
 
 A function is a reusable block of code that performs a specific task.
 
-python  
-Copy code  
 `def greet(name):`  
     `print("Hello, " + name)`
 
@@ -172,8 +146,6 @@ Copy code
 
 Functions can return values:
 
-python  
-Copy code  
 `def add(a, b):`  
     `return a + b`
 
@@ -187,29 +159,21 @@ Copy code
 
 A list is a collection of items, which can be changed.
 
-python  
-Copy code  
 `fruits = ["apple", "banana", "cherry"]`  
 `print(fruits[1])  # Output: banana`
 
 * **Add an item to a list**:
 
-python  
-Copy code  
 `fruits.append("orange")`
 
 * **Remove an item from a list**:
 
-python  
-Copy code  
 `fruits.remove("banana")`
 
 #### **2\. Dictionaries**
 
 A dictionary stores data in key-value pairs.
 
-python  
-Copy code  
 `person = {"name": "John", "age": 30}`  
 `print(person["name"])  # Output: John`
 
@@ -219,8 +183,6 @@ Copy code
 
 You can handle errors using `try` and `except`.
 
-python  
-Copy code  
 `try:`  
     `print(10 / 0)  # This will cause an error`  
 `except ZeroDivisionError:`  
